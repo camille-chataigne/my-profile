@@ -1,0 +1,96 @@
+body {
+	background-color: #F8F1FF;
+	font-family:'Piazzolla', serif;
+    font-weight: 16px;
+}
+
+h1 {
+	color: #D66853;
+	font-size: 40px;
+	font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+	color: #8DAA9D;
+	font-family: 'Lobster', cursive;
+	font-size: 25px;
+}
+
+div {
+	margin: 20px;
+	padding: 20px;
+	text-align-last: center;
+}
+
+.card-white {
+	background-color: white;	
+	border-radius: 4px;
+	text-align-last: center;
+	padding: 20px
+	margin: 40px 0px;
+	box-shadow: 0px 20px 40px rgba(0,0,0,0.3);
+}
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+.btn-red {
+	background-color: #D66853;
+	color: black;
+	padding: 10px 15px;
+	border-radius: 20px;
+	text-decoration: none;
+	font-weight: bold;
+	margin-bottom: 40px;
+}
+
+.btn-red:hover {
+	text-decoration: underline;
+}
+
+.img-circle {
+	border-radius: 50%;
+	width: 150px;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+@media (max-width: 720px) {
+	.container: {
+		width: 600px;
+	}
+}
+
+@media (max-width: 620px) {
+	.container: {
+		width: 500px;
+	}
+}
+
+@media (max-width: 520px) {
+	.container: {
+		width: 400px;
+	}
+}
+
+@media (max-width: 420px) {
+	.container: {
+		width: 300px;
+	}
+}
+
+@media (max-width: 320px) {
+	.container: {
+		width: 200px;
+	}
+}
+	
+@media (max-width: 220px) {
+	.container: {
+		width: 100px;
+	}
+}
